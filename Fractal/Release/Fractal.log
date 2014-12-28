@@ -1,0 +1,21 @@
+﻿Build started 12/28/2014 1:49:04 PM.
+     1>Project "D:\CIS\Fourth Year\1st Term\High Performance Computing\2014\Task\Fractal\Fractal\Fractal.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Fractal.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(68): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>Source.cpp(121): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CIS\Fourth Year\1st Term\High Performance Computing\2014\Task\Fractal\Release\Fractal.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CIS\Fourth Year\1st Term\High Performance Computing\2014\Task\Fractal\Release\Fractal.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CIS\Fourth Year\1st Term\High Performance Computing\2014\Task\Fractal\Release\Fractal.lib" /MACHINE:X86 /SAFESEH Release\IPoint.obj
+         Release\Source.obj
+         Generating code
+         Finished generating code
+     1>LINK : fatal error LNK1207: incompatible PDB format in 'D:\CIS\Fourth Year\1st Term\High Performance Computing\2014\Task\Fractal\Release\Fractal.pdb'; delete and rebuild
+     1>Done Building Project "D:\CIS\Fourth Year\1st Term\High Performance Computing\2014\Task\Fractal\Fractal\Fractal.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:12.59
