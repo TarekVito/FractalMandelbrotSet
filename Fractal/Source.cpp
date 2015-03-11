@@ -77,7 +77,7 @@ void OnKeyPressed(unsigned char key,int x,int y)
 		DEPTH-=5;
 	if(key == '-')
 		ZOOM=1.2;
-	if(key == '+')
+	if(key == '+' || key == '=')
 		ZOOM=0.8;
 }
 void OnSpecialKey(int key,int x,int y)
